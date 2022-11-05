@@ -8,6 +8,7 @@ module.exports = {
   hardhat: {
     forking: {
       url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.INFURA_API_KEY}`,
+      blockNumber: 15815693,
     },
     allowUnlimitedContractSize: true
   }
