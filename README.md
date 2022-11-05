@@ -1,11 +1,7 @@
 # Compound-project
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat test test/compound_test.js
 ```
 
 ref: https://github.com/AppWorks-School/Blockchain-Resource/blob/main/section3/lending.md
